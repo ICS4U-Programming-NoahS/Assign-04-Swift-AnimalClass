@@ -61,9 +61,6 @@ for animal in animals {
 // Conclusion message
 print("\nAll animals are asleep after a long day of competition.")
 
-
-import Foundation
-
 // This is the Animal superclass
 class Animal {
 
@@ -138,7 +135,6 @@ class Animal {
     }
 }
 
-
 // The Elephant subclass inherits from Animal superclass
 final class Elephant: Animal {
 
@@ -147,7 +143,6 @@ final class Elephant: Animal {
         super.init(age: age, species: "elephant", carnivore: false, herbivore: true)
     }
 }
-
 
 // The Lion subclass inherits from Animal superclass
 final class Lion: Animal {
